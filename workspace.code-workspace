@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\STM8_Headers"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.asm": "platformio-debug.asm",
+			"stm8s_itc.h": "c",
+			"stm8s_tim4.h": "c",
+			"stm8s.h": "c",
+			"stm8l10x.h": "c",
+			"stm8l15x.h": "c",
+			"stm8l10x_gpio.h": "c",
+			"headers.h": "c",
+			"toggle_gpio.h": "c",
+			"assert.h": "c",
+			"gpio_func.h": "c",
+			"stm8s_gpio.h": "c",
+			"controller_inputs.h": "c",
+			"stm8l10x_tim4.h": "c",
+			"stm8l15x_gpio.h": "c"
+		}
+	}
+}

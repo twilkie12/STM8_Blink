@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../STM8_Headers/**"
+            ],
+            "defines": [
+                "_SDCC_",
+                "__SDCC__"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "${default}",
+            "compilerArgs": [
+                "__SDCC__",
+                "_SDCC_"
+            ]
+        }
+    ],
+    "version": 4
+}

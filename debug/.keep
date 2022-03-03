@@ -1,0 +1,2 @@
+A dummy file to make sure that the release and debug folders are preserved by Git, it can be ignored.
+This will not be deleted by the Makefile.

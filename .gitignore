@@ -1,0 +1,4 @@
+release/*
+debug/*
+!*.keep
+*.log

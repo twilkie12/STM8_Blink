@@ -1,0 +1,13 @@
+:0148000000B7
+:0148020000B5
+:0148030000B4
+:0148080000AF
+:00000001FF
+
+Use Intel HEX format extension with VSCode to ensure the checksum is automatically generated and is correct
+
+0x4800 = Read-out protection, write 0xAA to enable
+0x4802 = User boot code size - Not used, check datasheet if needed
+0x4803 = Datasize, size of EEPROM area at end of program memory. 64 * value bytes.
+0x4808 = Independent watchdog option, 0x01/0x00 = Watchdog activated by hardware/software, 0x02/0x00 = Watchdog inactive/active in halt mode 
+Final line is end hex file

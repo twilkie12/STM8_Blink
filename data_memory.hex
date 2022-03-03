@@ -1,0 +1,6 @@
+:00000001FF
+
+Use Intel HEX format extension with VSCode to ensure the checksum is automatically generated and is correct
+
+This writes data to EEPROM as part of flashing
+The address will need to be selected to align with the code and option bytes
